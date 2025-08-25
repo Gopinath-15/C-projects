@@ -3,7 +3,7 @@
 
 int main()
 {
-    int ch,net=0,qty,re;
+    int choice,net=0,qty,re;
 menu:
     printf("\tMENU CARD");
     printf("\n\t\t1. COFFEE");//15
@@ -12,9 +12,9 @@ menu:
     printf("\n\t\t4. JUICE");//25
 
     printf("\nEnter your choice: ");
-    scanf("%d",&ch);
+    scanf("%d",&choice);
 
-    switch(ch)
+    switch(choice)
     {
 
     case 1:
